@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Folheto</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+
+                        geral: {
+                            titulos: '#7FB77E',
+                        numeros: '#F9F9F7',
+                    texto: '#DEF5E5',
+                bordas: '#8EC3B0',
+                fundoNumeral: '#54B435',
+            numeroPagina: '#3AB0FF',
+        numeroSalmo: '#ADE792',
+        leituraSemana: '#F1EEE9',
+        corpo: '#F9F9F9'
+                    },
+                },
+        fontFamily: {
+            kanit: ['Kanit'],
+            montserrat: ['Montserrat', 'sans-serif'],
+            lora: ['Lora', 'serif']
+        },
+            }
+        }
+    }</script>
+</head>
+
+<body class="bg-geral-corpo">
+    <header>
+        <div class="flex items-center relative border-b-2 border-solid border-geral-bordas">
+            <img src="./img/brasao_diocese.webp" alt="" class="w-48 my-4 mr-0 ml-6">
+
+            <div class="flex flex-col items-center justify-between h-40 my-0 mx-auto">
+                <h1 class="text-5xl text-geral-titulos font-kanit font-bold">Titulo do dia</h1>
+                <h3 class="subtitulo text-geral-titulos font-kanit">Celebração do dia</h3>
+                <p class="text-base p-2 bg-gray-300 rounded-full bg-geral-texto">Ano A - 1º Domingo do Tempo Comum - cor verde -
+                    XX/XX/XXXX</p>
+            </div>
+        </div>
+        <main>
+            <div class="border-dashed border-b-4 border-geral-bordas flex flex-col items-center">
+
+                <h5 class="font-bold text-2xl my-2 p-3 rounded-full bg-geral-texto font-montserrat">Deus nos reúne</h5>
+            </div>
+            <div class="container">
+                <div class="h-full ml-8 pr-4">
+                    <img src="./img/Jesus-entre-os-fariseus-e-saduceus.jpeg" alt=""
+                        class="block my-2 mx-auto p-2 w-1/4">
+                    <section class="leading-6 font-montserrat">
+                        <h5 class="font-bold text-2xl mx-auto mb-0 mt-2 p-3 text-center w-1/2 rounded-full bg-geral-texto">Ritos iniciais</h5>
+                        <div class="flex items-center mb-3 pb-1">
+                            <div class="font-bold text-xl mr-4 text-center w-8 bg-gray-300 rounded-full bg-geral-fundoNumeral text-geral-numeros">1</div>
+                            <p>CANTO DE ABERTURA</p>
+                        </div>
+                        <p class="mb-4"><b>Eu sou do povo a salvação, diz o
+                                Senhor (bis) / quem o protege no
+                                momento da aflição.(bis)</b></p>
+                        <section class="">
+                            <div class="flex items-center mb-3 pb-1">
+                                <div class="font-bold text-xl mr-4 text-center w-8 bg-gray-300 rounded-full bg-geral-fundoNumeral text-geral-numeros">2</div>
+                            <p>SAUDAÇÃO</p>
+                            </div>
+                            <p class="mb-4">P. Em nome do Pai e do Filho e do
+                                Espírito Santo.<br>
+                                <b> T. Amém.</b><br>
+                                P. O Deus da esperança, que nos
+                                cumula de toda alegria e paz em nossa fé, pela ação do Espírito Santo, esteja
+                                convosco.<br>
+                                <b> T. Bendito seja Deus que nos reuniu
+                                    no amor de Cristo.</b>
+                            </p>
+                            <p class="bg-gray-300 rounded-full text-xs mb-4 p-2 italic bg-geral-texto">P. (ou Anim.) Irmãos e irmãs,
+                                aqui nos encontramos para celebrar nossa páscoa dominical
+                                com o Senhor. Queremos ouvir
+                                o anúncio do seu Reino e deixar-
+                                -nos contagiar por ele. Queremos nos comprometer a buscar
+                                sempre o Reino de Deus e sua
+                                justiça, proclamando um novo
+                                mundo, onde todos possam viver
+                                com dignidade e que nenhum filho ou filha de Deus seja excluído
+                                ou descartado</p>
+                        </section>
+                        <section class="ato-penitencial">
+                            <div class="flex items-center mb-3 pb-1">
+                                <div class="font-bold text-xl mr-4 text-center w-8 bg-gray-300 rounded-full bg-geral-fundoNumeral text-geral-numeros">3</div>
+                                <p>ATO PENITENCIAL</p>
+                            </div>
+                            <p class="mb-4">P. Irmãos e irmãs, reconheçamos as
+                                nossas culpas para celebrarmos dignamente os santos mistérios.
+                            <p class="font-semibold mb-1 text-center">(Silêncio)</p>
+                            <p class="mb-4">P. Confessemos os nossos pecados:<br>
+                                <b>T. Confesso a Deus todo-poderoso
+                                    e a vós, irmãos e irmãs, que pequei
+                                    muitas vezes por pensamentos e
+                                    palavras, atos e omissões, por minha culpa, minha tão grande culpa.
+                                    E peço à Virgem Maria, aos anjos e
+                                    santos e a vós, irmãos e irmãs, que
+                                    rogueis por mim a Deus, nosso Senhor.</b><br>
+                                P. Deus todo-poderoso tenha compaixão de nós, perdoe os nossos pecados e nos conduza à
+                                vida
+                                eterna.<br>
+                                <b>T. Amém.<br></b>
+                                P. Senhor, tende piedade de nós.<br>
+                                <b>T. Senhor, tende piedade de nós.<br></b>
+                                P. Cristo, tende piedade de nós.<br>
+                                <b>T. Cristo, tende piedade de nós.<br></b>
+                                P. Senhor, tende piedade de nós.<br>
+                                <b>T. Senhor, tende piedade de nós.<br></b>
+                            </p>
+                        </section>
+                    </section>
+
+                </div>
+
+                <div class="h-full ml-8 pr-4">
+                    <section class="leading-6">
+                        <section class="">
+                            <div class="flex items-center mb-3 pb-1">
+                                <div class="font-bold text-xl mr-4 text-center w-8 bg-gray-300 rounded-full bg-geral-fundoNumeral text-geral-numeros">4</div>
+                                <p>GLORIA</p>
+                            </div>
+                            <p class="mb-4">Glória a Deus nas alturas, e paz na
+                                terra aos homens por Ele amados. <b>/
+                                    Senhor Deus, Rei dos céus, Deus Pai
+                                    todo-poderoso. /</b> nós vos louvamos, nós vos bendizemos, <b>/ nós vos adoramos,
+                                    nós
+                                    vos
+                                    glorificamos, /</b> nós
+                                vos damos graças por vossa imensa
+                                glória. <b>/ Senhor Jesus Cristo, Filho
+                                    Unigênito, /</b> Senhor Deus, Cordeiro
+                                de Deus, Filho de Deus Pai. <b>/ Vós
+                                    que tirais o pecado do mundo, tende piedade de nós. /</b> Vós que tirais
+                                o pecado do mundo, acolhei a nossa
+                                súplica. <b>/ Vós que estais à direita do
+                                    Pai, tende piedade de nós. /</b> Só vós
+                                sois o Santo, só vós, o Senhor, <b>/ só
+                                    vós o Altíssimo, Jesus Cristo, /</b> com
+                                o Espírito Santo, na glória de Deus
+                                Pai. <b>Amém.</b>
+
+                        </section>
+                        <section class="oração">
+                            <div class="flex items-center mb-3 pb-1">
+                                <div class="font-bold text-xl mr-4 text-center w-8 bg-gray-300 rounded-full bg-geral-fundoNumeral text-geral-numeros">5</div>
+                                <p>ORAÇÃO</p>
+                            </div>
+                            <p class="mb-4"><b>P. Oremos: (silêncio)</b> Ó Pai, que resumistes toda a lei no amor a
+                                Deus
+                                e ao próximo, fazei que, observando
+                                o vosso mandamento, consigamos
+                                chegar um dia à vida eterna. Por
+                                nosso Senhor Jesus Cristo, vosso Filho, na unidade do Espírito Santo.
+                                T. <br> <b>Amém.</b></p>
+
+                        </section>
+                    </section>
+                    <section class="leading-6 pt-12 font-montserrat>
+                        <h5 class="font-bold text-2xl mx-auto mb-0 mt-2 p-3 text-center w-1/2">Liturgia da Palavra</h5>
+                        <p class="mb-4"><b>Anim.</b> Abramos nosso coração a
+                            Deus, a fim de praticarmos a Palavra
+                            que vamos ouvir. </p>
+                        <div class="flex items-center mb-3 pb-1">
+                            <div class="font-bold text-xl mr-4 text-center w-8 bg-gray-300 rounded-full bg-geral-fundoNumeral text-geral-numeros">6</div>
+                            <p>PIRMEIRA LEITURA</p>
+                        </div>
+                        <p class="italic text-end text-xs"><br>(Am 8,4-7)</p>
+                        <p class="mb-4">Leitura da Profecia de Amós. <sup>4</sup>
+                            Ouvi
+                            isto, vós que maltratais os humildes
+                            e causais a prostração dos pobres
+                            da terra; <sup>5</sup>
+                            vós que andais dizendo:
+                            “Quando passará a lua nova, para
+                            vendermos bem a mercadoria? E o
+                            sábado, para darmos pronta saída
+                            ao trigo, para diminuir medidas, aumentar pesos, e adulterar balanças,
+                            <sup>6</sup>
+                            dominar os pobres com dinheiro
+                            e os humildes com um par de sandálias, e para pôr à venda o refugo
+                            do trigo?” <sup>7</sup>
+                            Por causa da soberba de
+                            Jacó, jurou o Senhor: “Nunca mais
+                            esquecerei o que eles fizeram.” - Palavra do Senhor<br>
+                            <b> T. Graças a Deus.</b>
+                        </p>
+                    </section>
+                </div>
+        </main>
+    </header>
+</body>
+
+</html>
