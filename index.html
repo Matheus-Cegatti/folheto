@@ -9,6 +9,7 @@
     <title>Folheto</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>tailwind.config = {
+        
             theme: {
                 extend: {
                     colors: {
@@ -36,9 +37,9 @@
     }</script>
 </head>
 
-<body class="bg-geral-corpo">
-    <header>
-        <div class="flex items-center relative border-b-2 border-solid border-geral-bordas">
+<body class="bg-geral-corpo w-screen">
+    <header class="w-screen">
+        <div class="flex flex-col justify-center sm:flex-row items-center relative border-b-2 border-solid border-geral-bordas">
             <img src="./img/brasao_diocese.webp" alt="" class="w-48 my-4 mr-0 ml-6">
 
             <div class="flex flex-col items-center justify-between h-40 my-0 mx-auto">
@@ -57,7 +58,7 @@
             <div class="container">
                 <div class="h-full ml-8 pr-4">
                     <img src="./img/Jesus-entre-os-fariseus-e-saduceus.jpeg" alt=""
-                        class="block my-2 mx-auto p-2 w-1/4">
+                        class="w-48 sm:w-1/4 block my-2 mx-auto p-2 ">
                     <section class="leading-6 font-montserrat">
                         <h5 class="font-bold text-2xl mx-auto mb-0 mt-2 p-3 text-center w-1/2 rounded-full bg-geral-texto">Ritos iniciais</h5>
                         <div class="flex items-center mb-3 pb-1">
@@ -81,7 +82,7 @@
                                 <b> T. Bendito seja Deus que nos reuniu
                                     no amor de Cristo.</b>
                             </p>
-                            <p class="bg-gray-300 rounded-full text-xs mb-4 p-2 italic bg-geral-texto">P. (ou Anim.) Irmãos e irmãs,
+                            <p class="py-2.5 rounded-2xl sm:p-2 rounded-full text-xs mb-4  italic bg-geral-texto">P. (ou Anim.) Irmãos e irmãs,
                                 aqui nos encontramos para celebrar nossa páscoa dominical
                                 com o Senhor. Queremos ouvir
                                 o anúncio do seu Reino e deixar-
@@ -639,7 +640,7 @@
                             <b> T. Graças a Deus</b>
                         </p>
                             </section>
-                            <div class="grid grid-cols-2 font-medium text-base leading-6 ml-8 pr-4 text-justify rounded-3xl bg-geral-texto">
+                            <div class="ml-0 sm:grid grid-cols-2 font-medium text-base leading-6 ml-8 pr-4 text-justify rounded-3xl bg-geral-texto">
                                 <div class="pr-4">
                                     <h4 class="font-bold text-xl pb-1 text-center">PRESTAR CONTAS</h4>
                                     No Evangelho deste Domingo,
@@ -715,8 +716,8 @@
                                     </div>
                                     
                     </section>
-                    <div class="grid grid-cols-2 gap-1">
-                    <div class="leading-6 mt-2 py-0 pr-0 pl-4 text-center rounded-3xl bg-geral-leituraSemana leading-6 ml-8">
+                    <div class="sm:grid grid-cols-2 gap-1">
+                    <div class="ml-0 sm:ml-8 leading-6 mt-2 py-0 pr-0 pl-4 text-center rounded-3xl bg-geral-leituraSemana leading-6 ">
                         <p class="font-bold">Leituras da Semana:</p>
                         2ª feira: Is 4,2-6; Sl 121; Mt 8,5-11<br>
                         3ª feira: Is 11,1-10; Sl 71; Lc 10,21-24<br>
@@ -727,7 +728,7 @@
                         Domingo: Is 11,1-10; Sl 71; Rm 15,4-9; Mt 3,1-12
                     </div>
 
-                    <div class="leading-6 mt-2 py-0 pr-0 pl-4 text-center rounded-3xl bg-geral-avisos leading-6 ml-8">
+                    <div class="ml-0 sm:ml-8 leading-6 mt-2 py-0 pr-0 pl-4 text-center rounded-3xl bg-geral-avisos leading-6  ">
                         <p class="font-bold">AVISOS</p>
                         1° aviso: ..... <br>
                         2° aviso: ..... <br>
@@ -736,8 +737,8 @@
                 </div>
                 </div>
         </main>
-        <footer class="mt-2 p-4">
-            <div class="flex items-center justify-between border-t-2 border-solid border-geral-bordas">
+        <footer class="mt-2 p-4 w-screen">
+            <div class="flex flex-col items-center sm:flex-row justify-between border-t-2 border-solid border-geral-bordas">
                 <img src="./img/logo.png" alt="" class="w-48">
                 <img src="./img/logo.png" alt="" class="w-48">
                 <img src="./img/logo.png" alt="" class="w-48">
